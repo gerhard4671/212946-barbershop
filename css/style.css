@@ -1,0 +1,74 @@
+*=-----------------------блок подключения Шрифтов--------------------------------------*/
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans Narrow"),
+       url("../fonts/ptsansnarrow.woff2") format("woff2"),
+       url("../fonts/ptsansnarrow.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans Narrow-Bold";
+  font-style: bold;
+  font-weight: 700;
+  src: local("PT Sans Narrow-Bold"),
+       url("../fonts/ptsansnarrowbold.woff2") format("woff2"),
+       url("../fonts/ptsansnarrowbold.woff") format("woff");
+}
+
+
+/*----------------------------Общие стили в рамках документа ------------------------------*/
+
+body {
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.4;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+/*----------------------------Заголовки------------------------------*/
+
+h1, h2 {
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+h2.subtitle-small {
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+h2.slogan {
+    font-size: 48px;
+    line-height: 1;
+}
+
+h3.product-name {
+    font-size: 14px;
+    line-height: 1.285;
+    text-transform: lowercase;
+}
+
+h3.product-name:first-letter {
+    text-transform: uppercase;
+}
+
+h3.product-name a {
+    text-transform: uppercase;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 24px;
+    line-height: 1.25;
+}
