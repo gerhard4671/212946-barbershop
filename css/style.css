@@ -26,7 +26,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: #000;
-    line-height: 1.4;
+    /*line-height: 1.4;*/
 }
 
 
@@ -37,22 +37,22 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1, h2 {
     font-size: 30px;
-    line-height: 1.4;
+    line-height:42px;
 }
 
 h2.subtitle-small {
     font-size: 24px;
-    line-height: 1.25;
+    line-height: 30px;
 }
 
 h2.slogan {
     font-size: 48px;
-    line-height: 1;
+    line-height: 48px;
 }
 
 h3.product-name {
     font-size: 14px;
-    line-height: 1.285;
+    line-height: 18px;
     text-transform: lowercase;
 }
 
@@ -70,5 +70,5 @@ fieldset {
 
 legend {
     font-size: 24px;
-    line-height: 1.25;
+    line-height: 30px;
 }
